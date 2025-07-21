@@ -13,12 +13,15 @@ function App() {
     <Navbar_div/>
     <Body_top/>
     <BodyChoice/>
+
+
+    
     <Service_func/>
     <Body_descryption/>
     <Talent_content/>
 
 
-    
+
     <Bottom_content/>
     </>
   )

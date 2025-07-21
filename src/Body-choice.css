@@ -1,0 +1,90 @@
+.Main-choice-div {
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    align-items: center;
+    width: 80%;
+    justify-self: center;
+    padding: 30px 60px;
+    margin: 40px 0;
+    background-color: rgb(16, 185, 129);
+
+}
+
+.imagediv {
+    height: 300px;
+    width: 350px;
+    margin-right:40px;
+    padding: 0;
+
+}
+
+.imagediv > img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.infodiv {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    gap: 30px;
+    margin-bottom: 40px;
+
+}
+
+.heading-info {
+    font-weight: bold;
+
+}
+.heading-info > p {
+    margin-top: 30px;
+}
+
+.points-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.point-control-div {
+    display: flex;
+    flex-direction: row;  
+    gap: 10px;
+
+}
+
+.point-control-div > img {
+    height: 30px;
+    width: 30px;
+
+}
+
+.point-control-div > p {
+    font-weight:600;
+    font-size: large;
+
+}
+
+/* .btn-div {
+    height: 50px;
+    padding: 10px;
+} */
+
+.btn-div > button{
+    height: 40px;
+    padding: 0 20px;
+    font-size: large;
+    background-color: white;
+    border: none;
+    color: rgb(35, 179, 118);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}

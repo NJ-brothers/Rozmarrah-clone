@@ -4,10 +4,12 @@
     background-color: rgb(16, 185, 129);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     align-items: center;
+    align-self: center;
     height: 300px;
     width: 85%;
-    margin: 5% 0 0 10%;
+    margin: 5% 0 0 0;
     border-radius: 20px;
+    justify-self: center;
 
 }
 
@@ -36,6 +38,7 @@
     padding: 0 25px;
     border-radius: 4px;
     margin-top: 20px;
+    cursor: pointer;
 
 }
 
